@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://retohugi.github.io/sitemap.xml 
