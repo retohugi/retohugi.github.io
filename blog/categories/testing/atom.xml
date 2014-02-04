@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[The Blog That Never Was]]></title>
-  <link href="http://retohugi.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Testing | The Blog That Never Was]]></title>
+  <link href="http://retohugi.github.io/blog/categories/testing/atom.xml" rel="self"/>
   <link href="http://retohugi.github.io/"/>
   <updated>2014-02-04T22:58:07+01:00</updated>
   <id>http://retohugi.github.io/</id>
