@@ -1,5 +1,18 @@
+---
+branches:
+  only:
+  - source
 language: ruby
 rvm:
-  - 2.0.0
-  - 1.9.3
-script: bundle exec rake install; bundle exec rake generate
+- 2.0.0
+before_script:
+- export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
+- rake setup_github_pages[$REPO_URL]
+script:
+- rake generate
+after_script:
+- rake deploy
+env:
+  global:
+  - GH_REPO="retohugi/retohugi.github.io"
+  - secure: "GyRS/Yzxv/ZIqHWu8aXKgRFCqWNbYmqjUktKiIV4XkofCksg/zZp445vSRt3MMJPDv/MWdpkI1wTOhPBMaMsiHWPfuBMCp0CxHbYcKExtsikc9pdMchGYAwU8iIVSUudI2/fMLTVdX5YFchnYBDunmaEbCQn/vo9fjPR2lBzAiQ="
