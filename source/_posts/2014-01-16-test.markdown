@@ -1,0 +1,18 @@
+---
+layout: post
+title: "test"
+date: 2014-01-16 23:40:16 +0100
+comments: true
+categories: testing
+---
+# Hello World
+... testing if that octopress think works
+<!-- more -->
+Ok, now that you are interested:
+## yes it works!
+´´´
+this ist code
+´´´
+
+not sure if this preview is fancy...
+bye.
