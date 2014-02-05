@@ -15,6 +15,6 @@ before_script:
 - export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
 - bundle exec rake setup_github_pages[$REPO_URL]
 script:
-- bundle exec rake generate
+- rake generate
 after_script:
 - rake deploy
