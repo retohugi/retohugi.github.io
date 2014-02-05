@@ -12,7 +12,7 @@ before_script:
 script:
 - bundle exec rake generate
 after_script:
-- bundle exec rake deploy
+- rake deploy
 env:
   global:
   - GH_REPO="retohugi/retohugi.github.io"
